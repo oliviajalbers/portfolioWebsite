@@ -4,7 +4,6 @@ export default function Home() {
       <div className="leading-tight">
         <h1 className="text-4xl font-bold font-heading">Olivia Albers</h1>
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">Software Engineer</h2>
-        <h3 className="text-base text-gray-500 tracking-wide">add headline here</h3>
       </div>
       <br></br>
       <div id="aboutMe">
