@@ -147,14 +147,10 @@ export default function Home() {
 
       <div className="mt-6 space-x-4">
         <a
-          href="/projects"
-          className="bg-black text-white px-6 py-2 rounded"
-        >
-          View Projects
-        </a>
-        <a
           href="/olivia_albers_resume.pdf"
           className="border px-6 py-2 rounded"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Resume
         </a>
