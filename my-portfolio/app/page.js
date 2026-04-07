@@ -154,6 +154,48 @@ export default function Home() {
           Resume
         </a>
       </div>
+      <footer className="mt-24 border-t border-gray-200">
+        <div className="max-w-5xl mx-auto px-4 py-10 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-gray-500">
+          {/* Left side */}
+          <div className="text-center md:text-left">
+            <p className="font-semibold text-gray-700">Olivia Albers</p>
+            <p>Software Engineer</p>
+          </div>
+          {/* Right side */}
+          <div className="flex space-x-4">
+            <a
+              href="https://github.com/oliviajalbers"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-900 transition"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://linkedin.com/in/oliviaalbers"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-900 transition"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="mailto:oliviajalbers@gmail.com"
+              className="hover:text-gray-900 transition"
+            >
+              Email
+            </a>
+          </div>
+          
+        </div>
+        {/* Bottom line */}
+        <div className="text-center text-xs text-gray-400 pb-6">
+          © {new Date().getFullYear()} Olivia Albers. All rights reserved.
+        </div>
+      </footer>
     </section>
+    
+    
+    
   );
 }
