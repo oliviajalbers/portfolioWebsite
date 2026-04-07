@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-white/70 backdrop-blur-md border-b border-gray-200 w-full">
       <div className="flex justify-between items-center p-6 max-w-5xl mx-auto">
-        <h1 className="text-xl font-bold">Olivia Albers</h1>
+        <h1 className="text-3xl font-bold">OA</h1>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-6">
