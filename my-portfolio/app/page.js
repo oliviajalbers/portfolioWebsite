@@ -1,9 +1,38 @@
+"use client";
+
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+
 export default function Home() {
   return (
     <section className="text-left mt-20">
       <div className="leading-tight">
         <h1 className="text-4xl font-bold font-heading">Olivia Albers</h1>
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">Software Engineer</h2>
+        <div className="flex space-x-6 mt-4 text-gray-600">
+          <a
+            href="https://github.com/oliviajalbers"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-900 transition transform hover:scale-110"
+          >
+            <FaGithub className="w-6 h-6" />
+          </a>
+          <a
+            href="https://linkedin.com/in/oliviaalbers"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-900 transition transform hover:scale-110"
+          >
+            <FaLinkedin className="w-6 h-6" />
+          </a>
+          <a
+            href="mailto:oliviajalbers@gmail.com"
+            className="hover:text-gray-900 transition transform hover:scale-110"
+          >
+            <HiOutlineMail className="w-6 h-6" />
+          </a>
+        </div>
       </div>
       <br></br>
       <div id="aboutMe">
@@ -38,7 +67,7 @@ export default function Home() {
 
               {/* RIGHT COLUMN (text) */}
               <div>
-                <h3 className="text-base text-gray-500">
+                <h3 className="text-xl text-gray-400">
                   Software Engineer | Oracle | Austin, TX
                 </h3>
                 <p className="text-sm text-gray-500 mb-2">
@@ -55,8 +84,24 @@ export default function Home() {
                     Earned Oracle AI Foundations Certification, strengthening ability to apply AI/ML concepts within cloud-based solutions
                   </li>
                 </ul>
+                <div className="flex flex-wrap gap-2 mt-3">
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Python
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    JavaScript
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Automated Testing
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Artificial Intelligence
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Cloud Operations
+                  </span>
+                </div>
               </div>
-
             </div>
 
             {/* ITEM */}
@@ -66,7 +111,7 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="text-base text-gray-500">
+                <h3 className="text-xl text-gray-400">
                   Software Development Intern | Hurley Piano | Austin, TX
                 </h3>
                 <p className="text-sm text-gray-500 mb-2">
@@ -77,6 +122,14 @@ export default function Home() {
                     Developed a backend for a Godot game designed to teach piano to children with special needs, incorporating features for leaderboards and user account management
                   </li>
                 </ul>
+                <div className="flex flex-wrap gap-2 mt-3">
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Backend Development
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    GDScript
+                  </span>
+                </div>
               </div>
             </div>
 
@@ -87,7 +140,7 @@ export default function Home() {
               </div>
 
               <div>
-                <h3 className="text-base text-gray-500">
+                <h3 className="text-xl text-gray-400">
                   Software Engineer Intern | Oracle | Austin, TX
                 </h3>
                 <p className="text-sm text-gray-500 mb-2">
@@ -107,6 +160,26 @@ export default function Home() {
                     Created comprehensive documentation for a PL/SQL package used in a web application detailing functional specifications and usage instructions to facilitate better understanding and maintenance
                   </li>
                 </ul>
+                <div className="flex flex-wrap gap-2 mt-3">
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Full-Stack Development
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Python
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    SQL
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    JavaScript
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Agile
+                  </span>
+                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                    Git
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -169,7 +242,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="hover:text-gray-900 transition"
             >
-              GitHub
+              <FaGithub className="w-6 h-6" />
             </a>
             <a
               href="https://linkedin.com/in/oliviaalbers"
@@ -177,13 +250,13 @@ export default function Home() {
               rel="noopener noreferrer"
               className="hover:text-gray-900 transition"
             >
-              LinkedIn
+              <FaLinkedin className="w-6 h-6" />
             </a>
             <a
               href="mailto:oliviajalbers@gmail.com"
               className="hover:text-gray-900 transition"
             >
-              Email
+              <HiOutlineMail className="w-6 h-6" />
             </a>
           </div>
           
