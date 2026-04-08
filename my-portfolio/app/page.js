@@ -216,7 +216,7 @@ export default function Home() {
         <p className="text-base text-gray-500 tracking-wide">Languages: Python, JavaScript, Java, C++, SQL</p>
       </div>
       
-
+      <br></br>
       <div className="mt-6 space-x-4">
         <a
           href="/olivia_albers_resume.pdf"
@@ -224,7 +224,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Resume
+          Download Resume
         </a>
       </div>
       <footer className="mt-24 border-t border-gray-200">
