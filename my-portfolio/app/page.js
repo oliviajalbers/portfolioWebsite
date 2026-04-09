@@ -2,6 +2,7 @@
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Home() {
   return (
@@ -85,19 +86,19 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-2 mt-3">
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Python
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     JavaScript
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Automated Testing
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Artificial Intelligence
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Cloud Operations
                   </span>
                 </div>
@@ -123,10 +124,10 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-2 mt-3">
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Backend Development
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     GDScript
                   </span>
                 </div>
@@ -161,22 +162,22 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-2 mt-3">
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Full-Stack Development
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Python
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     SQL
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     JavaScript
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Agile
                   </span>
-                  <span className="px-3 py-1 text-sm bg-gray-200 text-gray-700 rounded-full">
+                  <span className="px-3 py-1 text-sm bg-gray-200/75 text-gray-700 rounded-full">
                     Git
                   </span>
                 </div>
@@ -189,17 +190,25 @@ export default function Home() {
       <br></br>
       <div id="education" className="scroll-mt-24">
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">Education</h2>
-        <h3 className="text-base text-gray-500 tracking-wide">Bachelor of Science - Software Development</h3>
+        <h3 className="text-base text-gray-400 tracking-wide">Bachelor of Science - Software Development</h3>
         <h3 className="text-base text-gray-500 tracking-wide">Austin Community College | Austin, TX | Dec 2025</h3>
-        <h3 className="text-base text-gray-500 tracking-wide">Associate of Science - Computer Programming</h3>
+        <h3 className="text-base text-gray-400 tracking-wide">Associate of Science - Computer Programming</h3>
         <h3 className="text-base text-gray-500 tracking-wide">Austin Community College | Austin, TX | Dec 2024</h3>
-        <h3 className="text-base text-gray-500 tracking-wide">Bachelor of Science - Chemical Engineering</h3>
+        <h3 className="text-base text-gray-400 tracking-wide">Bachelor of Science - Chemical Engineering</h3>
         <h3 className="text-base text-gray-500 tracking-wide">Miami University | Oxford, OH | May 2019</h3>
       </div>
       <br></br>
       <div id="projects" className="scroll-mt-24">
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">Projects</h2>
-        <p className="text-base text-gray-500 tracking-wide">coming soon</p>
+        <br></br>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <ProjectCard
+            title="Portfolio Site"
+            desc="My personal portfolio built with Next.js and TailwindCSS."
+            tech="Next.js, Tailwind, Vercel"
+            link="https://github.com/oliviajalbers/portfolioWebsite"
+          />
+        </div>
       </div>
       <br></br>
       <div id="certifications" className="scroll-mt-24">
