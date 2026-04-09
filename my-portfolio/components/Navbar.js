@@ -36,7 +36,10 @@ export default function Navbar() {
       {/* Mobile Dropdown */}
       {menuOpen && (
         <div className="md:hidden flex flex-col items-center gap-4 pb-4">
-          <Link href="/" onClick={() => setMenuOpen(false)}>Home</Link>
+          <Link href="#aboutMe" onClick={() => {
+            setMenuOpen(false);
+            scrollToSection("aboutMe");
+          }}>About Me</Link>
           <Link href="#experience" onClick={() => {
             setMenuOpen(false);
             scrollToSection("experience");
