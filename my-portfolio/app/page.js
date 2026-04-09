@@ -35,7 +35,7 @@ export default function Home() {
         </div>
       </div>
       <br></br>
-      <div id="aboutMe">
+      <div id="aboutMe" className="scroll-mt-24">
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">About Me</h2>
         <p className="text-base text-gray-500 tracking-wide">
           Motivated and results-driven Software Engineer at Oracle, working on the Service Automation Development team within Cloud Operations. With a background in Chemical 
@@ -45,7 +45,7 @@ export default function Home() {
         </p>
       </div>
       <br></br>
-      <div id="experience" className="scroll-mt-40">
+      <div id="experience" className="scroll-mt-24">
         <h2 className="text-xl text-gray-400 tracking-wide font-heading mb-6">
           Experience
         </h2>
@@ -187,7 +187,7 @@ export default function Home() {
       </div>
       
       <br></br>
-      <div id="education">
+      <div id="education" className="scroll-mt-24">
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">Education</h2>
         <h3 className="text-base text-gray-500 tracking-wide">Bachelor of Science - Software Development</h3>
         <h3 className="text-base text-gray-500 tracking-wide">Austin Community College | Austin, TX | Dec 2025</h3>
@@ -197,12 +197,12 @@ export default function Home() {
         <h3 className="text-base text-gray-500 tracking-wide">Miami University | Oxford, OH | May 2019</h3>
       </div>
       <br></br>
-      <div id="projects">
+      <div id="projects" className="scroll-mt-24">
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">Projects</h2>
         <p className="text-base text-gray-500 tracking-wide">coming soon</p>
       </div>
       <br></br>
-      <div id="certifications">
+      <div id="certifications" className="scroll-mt-24">
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">Certifications</h2>
         <p className="text-base text-gray-500 tracking-wide">Cypress Automation Testing Framework | Coursera | Mar 2026</p>
         <p className="text-base text-gray-500 tracking-wide">Oracle Cloud Infrastructure AI Foundations | Oracle | Feb 2026</p>
@@ -211,7 +211,7 @@ export default function Home() {
         <p className="text-base text-gray-500 tracking-wide">Introduction to Computer Science | Harvard University | Nov 2022</p>
       </div>
       <br></br>
-      <div id="skills">
+      <div id="skills" className="scroll-mt-24">
         <h2 className="text-xl text-gray-400 tracking-wide font-heading">Skills</h2>
         <p className="text-base text-gray-500 tracking-wide">Languages: Python, JavaScript, Java, C++, SQL</p>
       </div>

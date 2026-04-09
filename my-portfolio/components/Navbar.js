@@ -19,7 +19,7 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div className="hidden md:flex space-x-6">
-          <Link href="/">Home</Link>
+          <Link href="#aboutMe"  onClick={() => scrollToSection("aboutMe")}>About Me</Link>
           <Link href="#experience" onClick={() => scrollToSection("experience")}>Experience</Link>
           <Link href="#education" onClick={() => scrollToSection("education")}>Education</Link>
           <Link href="#projects" onClick={() => scrollToSection("projects")}>Projects</Link>
